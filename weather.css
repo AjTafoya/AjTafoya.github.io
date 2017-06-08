@@ -1,11 +1,16 @@
-body{
-	background-color:#8E44AD;
-	background-size: cover;
+body {
+
+background-color: #884EA0;
+background-size: cover;
+
 }
-#test{
-	width:250px;
-	height:250px;
-	background-color:#FDFEFE;
-	margin:auto;
-	margin-top: 15%;
+h1 {
+  color:#ffffff;
+}
+.btn{
+  font-size:20px;
+  margin:2px;
+}
+footer{
+  color:white;
 }
