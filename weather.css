@@ -1,16 +1,26 @@
-body {
+body{
+  background:#42f4dc;
+  margin:0;
+}
+#info{
+  background: #ffffff;
+  text-align: center;
+  margin:15% 40% 15% 40%;
+}
+#location{
+  font-size: x-large;
+}
+#time{
 
-background-color: #884EA0;
-background-size: cover;
+}
+#icon{
+margin: 2% 0 2% 0;
+width:auto;
 
 }
-h1 {
-  color:#ffffff;
+#temp{
+  font-size: x-large;
 }
-.btn{
-  font-size:20px;
-  margin:2px;
-}
-footer{
-  color:white;
+#desc{
+
 }

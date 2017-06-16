@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="weather.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="weather.css">
-</head>
-<body>
-<div class="text-center">
-  <h1 id = "Location"></h1>
-  <div id = "icon"><img  src="#"/></div>
-<ul class="list-unstyled">
-<li class="btn btn-default" id ="weatherType"></li>
-<li class="btn btn-primary" id= "Ftemp"></li>
-<li  class="btn btn-default" id= "windSpeed" ></li>
-</ul> 
-  <footer>
-  <p>Coded by: <a href="https://www.linkedin.com/in/anthony-tafoya-b4361211a?trk=nav_responsive_tab_profile_pic" target="blank">Aj Tafoya</a></p>
-  </footer>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="weather.css">
+    <meta charset="utf-8">
+    <title>Weather App</title>
+  </head>
+  <body>
 
 
-</body>
+    <div id="info" class="container-fluid">
+
+      <div id="location" class=""></div>
+      <div id="icon"></div>
+      <div id="temp"></div>
+      <div id="desc"></div>
+
+
+    </div>
+
+
+    <script type="text/javascript" src="weather.js"></script>
+  </body>
 </html>
