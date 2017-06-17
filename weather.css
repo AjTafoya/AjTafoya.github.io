@@ -1,6 +1,7 @@
 body{
   background:#42f4dc;
   margin:0;
+  font-family: impact, courier, helvetica;
 }
 #info{
   background: #ffffff;
@@ -20,6 +21,10 @@ width:auto;
 }
 #temp{
   font-size: x-large;
+}
+#degree{
+  height:25%;
+  margin-left:5%;
 }
 #desc{
 
