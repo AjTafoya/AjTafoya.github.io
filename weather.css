@@ -1,14 +1,18 @@
 body{
   background:#42f4dc;
   margin:0;
+  font-family: impact, courier, helvetica;
 }
 #info{
   background: #ffffff;
   text-align: center;
   margin:15% 40% 15% 40%;
+  box-shadow: 10px 10px 5px #888888;
 }
 #location{
   font-size: x-large;
+
+
 }
 #time{
 
@@ -20,6 +24,10 @@ width:auto;
 }
 #temp{
   font-size: x-large;
+}
+#degree{
+  height:25%;
+  margin-left:5%;
 }
 #desc{
 
