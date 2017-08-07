@@ -20,7 +20,7 @@ $(document).ready(function(){
         var icon = wdata.weather[0].icon;
         document.getElementById('icon').innerHTML = "<img src="' icon "'></img>"
    
-      }
+      
 
 
     });
